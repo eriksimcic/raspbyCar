@@ -114,10 +114,11 @@ def turn(direct, durr = 1):
 turn("rightFWD")
 
 
+def test():
+    print("Test complete")
+    
 
-
-
-#GPIO.setmode(GPIO.BCM)      #Call pins by number
+GPIO.setmode(GPIO.BCM)      #Call pins by number
 
 
 
